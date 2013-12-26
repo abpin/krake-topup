@@ -1,0 +1,22 @@
+{
+    "author": "Gary Teh <garyjob@gmail.com>",
+    "name": "topup-krake"
+  , "main": "./krake_topup_server.coffee"
+  , "version": "0.0.1"
+  , "private": true
+  , "engines": {
+    "node": "=0.6.11"
+  }  
+  , "dependencies": {
+      "async": ""
+    , "cron": ""
+    , "dateformat": ""
+    , "ejs": "0.6.1"
+    , "express": "2.5.7"
+    , "krake-toolkit": "https://github.com/KrakeIO/krake-toolkit/tarball/master"
+    , "kson": "https://github.com/KrakeIO/kson/tarball/master"    
+    , "pg": ""
+    , "sequelize": ""
+    , "time": ""
+  }
+}
